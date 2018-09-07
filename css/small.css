@@ -1,0 +1,19 @@
+@media screen and (max-width: 600px){
+
+h1,h2,h3,h4,h5,h6,p .section{
+	text-align: center;
+}
+main{
+
+	min-width: 310px;
+}
+.workBox p{
+	font-size: 90%;
+
+}
+.workBox h4{
+	font-size: 95%;
+
+}
+
+}

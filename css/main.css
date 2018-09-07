@@ -1,0 +1,144 @@
+
+	img, embed, object, video{
+		max-width: 100%;
+	}
+
+	main{
+		max-width: 80%;
+		min-width: 400px;
+		margin: auto;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	header{
+		border-bottom: thin solid #7d97ad;
+		margin-bottom: 10px;
+		min-width: 90%;
+
+	}
+	#headerText h1{
+		font-size: 3rem;
+
+	}
+	#headerText h3{
+		font-size: 1.5rem;
+
+	}
+	section{
+		max-width: 100%;
+
+	}
+	#mainSection{
+		overflow: auto;
+		justify-content: center;
+	}
+	#mainImage{
+		min-width: 300px;
+		min-height: 213px;
+		width: 70vw;
+		height: 50vw;
+
+		/*height:200px;*/
+
+	}
+	.section{
+		max-width: 90%;
+		text-align: left;
+		align-self: left;
+		border-bottom: thin solid #7d97ad;
+	}
+
+	h1, h2, h3, h4{
+	    font-family: 'Lato', sans-serif;
+    
+	}
+	h1{
+		font-size: 5vw;
+		line-height: 2vw;
+
+	}
+	h3{
+		font-size: 2rem
+		line-height: 2vw;
+	}
+	h4{
+		line-height: 0.5vw;
+	}
+	h2{
+		font-size: 2rem;
+		line-height: 2vw;
+	}
+	p{
+		font-size: 100%;
+
+		font-family: 'roboto', sans-serif; 	
+		color: #4f5458;
+	}
+	.sectionHeader{
+		text-align: left;
+	}
+	#headerText{
+		text-align: right;
+		margin-left: 30px;
+	}
+	#featuredWork{
+		display: flex;
+		flex-wrap: wrap;
+		min-height:550px;
+
+	}
+	.workBox{
+		
+		border-radius: 5px;
+		height: auto;
+		min-width: 200px;
+		max-width: 450px;
+		text-align: center;
+		margin-left: 3px;
+		line-height: 0.5px;
+		cursor: pointer;
+
+		
+	}
+	.workBox img{
+		max-width: 100%;
+		height: auto;
+		border: thin solid black ;
+		border-radius: 5px;
+		width: 100%;
+
+
+	}
+	.workBox h4{
+
+		font-size: 2.5rem;
+
+	}
+	.workBox p{
+
+		font-size: 1.7rem;
+
+	}
+	 a {
+		
+		text-decoration: none;
+		color: inherit;
+		
+		
+	}
+	footer{
+		display: inline-block;
+		vertical-align: top;
+		width: 90%;
+		justify-content: center;
+		padding: auto;
+	}
+
+	.contactBtn{
+		cursor: pointer;
+		margin-right: 3%;
+		min-height: 48px;
+		min-width: 48px;
+	}
